@@ -1,0 +1,74 @@
+Keywords: Logic to implement the logic we will use keywords.
+For example: rather than doing thing one by one we will ue loop
+Like for loop, while loop
+if/else 
+
+When to use which loop then you know the programming language
+
+In the keyword.md, 26 keywords are mentioned from devops point of view.
+
+and
+or
+not
+if
+else
+elif
+while 
+for
+except
+finally
+def
+return
+class
+import
+from
+as
+True
+False
+None
+is
+lambda
+with
+global
+nonlocal
+
+-----------------
+
+variables:
+(not hard coding the value)
+
+defining, assigning and naming convention
+loweer case
+descriptive
+snake or camel casing
+underscore(_)
+
+camel case:
+first letter capitalized
+rest lowercase
+
+snake case:
+all letters are in snake_case format
+
+kebab case:
+all letters are in kebab-case format
+
+
+-----------------
+In python we dont need to define the datatype of variable.
+
+
+-----------------
+
+Python is a Dynamically typed programming language
+
+-----------------
+
+Global variable and local variable
+
+-----------------
+
+def is defining the function.
+-----------------
+
+
