@@ -1,0 +1,79 @@
+We will learn about function, package, and module in this chapter.
+
+If we write function format then doing the particular work becomes easy and 
+the function can be reused.
+So, basically reusability, readability, and easy debugging
+are some of the main advantages of using functions.
+
+Devops function example:
+
+Terraform?:
+We use 
+
+Ansible? function
+Puppet? function
+Chef? function
+
+Modules or modular approaches:
+Reusable (imp)
+
+--------------
+input
+perform the required logic
+return output
+
+---------------
+Packages:
+A collection of related software packages.
+
+Modules is collection of functions.
+Now, packages are collection of modules.
+
+Packages acan also be called libraries
+
+------------------
+Api request? some people have already wirtten the code.\
+So, talikng to apis all the modules are available and we will directly use them
+Not like writing all the modules from scratch
+
+PYPI --- it's really good to find the packages that you want.
+or libraries that you want
+(Find, install and publish Python packages with the Python Package Index)
+
+The Python Package Index (PyPI) is a repository of software for the Python programming language.
+
+---------------------
+pip --> can install anything that is available in pypi
+
+----------------------
+#Example how to install boto3
+pip install boto3 
+
+--------------------
+How to see what all packages are installed in my system?
+Run the below command:
+pip list
+
+--------------------
+#some machine might not have pip itself, we can search the command based on system and install it
+
+--------------------
+Virtual enviornment:
+why use?
+when you want to run your code in different environment.
+
+--------------------
+Install virtual env tool:
+pip install virtualenv
+
+create virtual environment:
+(can replace by any name project-name)
+python -m venv project-name
+
+activate the virtual environment:
+source project-name/bin/activate
+
+To come out of that environment:
+deactivate
+
+(Multiple developement team and multiple version)

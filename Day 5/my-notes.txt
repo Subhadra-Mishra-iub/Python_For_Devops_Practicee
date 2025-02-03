@@ -1,0 +1,19 @@
+Command line arguments and environment
+
+------
+environment variables:
+syntax: env var
+
+why use?
+Example you are passing some sensitive infor and dont wanna change
+like token, api, etc
+
+------------------------
+First say that in the terminal i wanted to save a password.
+So, in the Day 5 folder, I wrote the command:
+export password="subhadra"
+
+Now, to read the environment variables:
+(inside any python file)
+import os (to read environment variable)
+os.environ.get('password')
