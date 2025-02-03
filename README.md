@@ -9,4 +9,5 @@ Jan 30, 2025: Finished Day 0, Day 1, and updated the GitHub.
 Jan 31, 2025: Finished Day 2.
 
 Feb 1, 2025: Finished Day 3.
+
 Feb 2, 2025: Finished Day 4, 5, and 6
