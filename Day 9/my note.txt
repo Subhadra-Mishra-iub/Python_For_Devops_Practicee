@@ -1,0 +1,15 @@
+if we know the number of execution then for is most preferable 
+and if we dont know the number of execution then the loop while will be used.
+
+Examples:
+print a name till all the files in a particular folder is deleted.
+So, here while is preferable
+
+sudo code: 
+while(files in folder are empty)
+    print("deleting files")
+
+--------------------------------------
+break
+continue
+"""
