@@ -13,3 +13,5 @@ Feb 1, 2025: Finished Day 3.
 Feb 2, 2025: Finished Day 4, 5, and 6
 
 Feb 3, 2025: Finished Day 7, 8, and 9
+
+Feb 5, 2025: Finished Day 10.
