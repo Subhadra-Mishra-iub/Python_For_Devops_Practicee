@@ -1,0 +1,21 @@
+Dictionary and Sets
+
+## What is a Dictionary in Python? and why?
+
+A dictionary is an unordered collection of data values, used to map names to related values. 
+A single dictionary object can store multiple key-value pairs (or just 'entries' from now on)
+
+We can store these properties in a list as well but it will be difficult to know what is the property of what 
+like is the element is id or name or type?
+
+Example: 
+{
+    "name": "John",
+    "age": 30,
+    "class": "11"
+}
+
+propertie?
+Key value and pairs
+
+------------------------------
