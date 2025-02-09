@@ -25,15 +25,22 @@
 import requests
 #Why am i still getting error?
 
-url = "https://api.github.com/repos/subhadra-mishra/Python_For_Devops_Practicee/Day 11/real_life_example.py"
-response = requests.get(url)
-print(response.json())
+#url = "api.github.com/repos/kubernetes/kubernetes/pulls"
+#list of dictionaries: can check by go to browser and put the url and see the json format
+#then doing requests.get(url) will give the same as going to the browser and stuff
 
-#Now, we will be using the Kubernates module to deploy our application on kubernetes cluster.
-#So, we will be using the kubernetes module.
-#So, first we need to install the kubernetes module.
-#So, in the terminal, first install the kubernetes module by using the command: pip install kubernetes.
-#Then write a python program that will use the kubernetes module.
-#So, here is the code:
+response = requests.get("https://api.github.com/repos/kubernetes/kubernetes/pulls")
+#print(response.json()) :  This automatically converts to dictonary
+#Just say that we just want to have users name
 
+complete_details = response.json()
 
+#Name of the first user who has made a pull request on kubernetes repo:
+print(complete_details[0]["user"]["login"])
+
+#Complete Data:
+for i in range(len(complete_details)):
+    print(complete_details[i]["user"]["login"])
+
+#Now, if we want to have say number of pull requests along with the user name
+#Then we can do the following:

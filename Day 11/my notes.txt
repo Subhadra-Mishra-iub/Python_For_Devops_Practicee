@@ -19,3 +19,17 @@ propertie?
 Key value and pairs
 
 ------------------------------
+
+Set:
+Properties of set is that it is unordered, unindexed, and does not allow duplicate values.
+
+Real life example? s3 buckets has to be unique.
+
+------------------------------
+Brackets symbol:
+Dictionary: {}
+Set: {}
+List: []
+Tuples: ()
+
+------------------------------
