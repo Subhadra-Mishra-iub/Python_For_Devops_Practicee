@@ -1,0 +1,36 @@
+Boto3 module details:
+--- First we need to know how to create s3 buckets fron UI
+--- AWS CLI? 
+--- Lambda Functions?
+---------------------------
+Can check the boto3 documentation for more details
+For specifically s3: https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3.html
+
+What is boto3?
+Boto3 is the Amazon Web Services (AWS) Software Development Kit (SDK) for Python. 
+It allows Python developers to interact programmatically with AWS services, making 
+it easier to create, configure, and manage resources such as Amazon S3, EC2, DynamoDB, 
+and Lambda directly from Python scripts.
+
+-----------------------------
+Example:
+import boto3
+
+# Create an S3 resource
+s3 = boto3.resource('s3')
+
+# List all bucket names
+for bucket in s3.buckets.all():
+    print(bucket.name)
+
+-----------------------------
+Note:
+boto3.client is a lower-level interface designed for developers 
+who need detailed control over AWS service interactions, while
+boto3.resource abstracts away much of the complexity for easier 
+and more Pythonic usage.
+
+So, go with client.
+
+------------------------------
+Lambda and Cost Optimization:
